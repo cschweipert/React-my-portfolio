@@ -21,43 +21,50 @@ body > #root > div {
   }
   
   h1 {
-    font-size: 3.2rem;
+    font-size: 5rem;
     font-family: "Montserrat", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     color: #fff;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
+    margin: 0;
   }
   
   .name {
-    font-weight: 600;
-    color: #F0134D;
+    font-family: "Dancing Script", cursive;
+    font-weight: 500;
+    font-size: 5.9rem;
+    color: #b6ffea;
   }
   
   .title {
-    font-weight: 600;
-    color: #40bfc1;
+    font-family: "Dancing Script", cursive;
+    font-weight: 500;
+    font-size: 5.9rem;
+    color: #b6ffea;
   }
   
   .meBtn {
-    border: 1px solid #F0134D;
-    background-color: transparent;
-    color: #F0134D;
+    border: 2px solid #fff;
+    background-color: #b6ffea;
+    color: #fff;
     cursor: pointer;
     padding: 15px 25px;
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 1.2rem;
+    font-weight: 500;
     font-family: "Montserrat", sans-serif;
     text-decoration: none;
     width: 100px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
   }
   
   .meBtn:hover {
-    border: 1px solid #fff;
-    color: #fff;
-    background-color: #F0134D;
+    border: 2px solid #b6ffea;
+    color: #b6ffea;
+    background-color: #fff;
     padding: 15px 25px;
   }
 
@@ -79,11 +86,11 @@ body > #root > div {
 }
 
 .topnav a:hover {
-  color: #F0134D;
+  color: #b6ffea;
 }
 
 .topnav .active {
-  color: #F0134D;
+  color: #b6ffea;
 }
 
 .topnav .icon {
@@ -148,7 +155,7 @@ h2 {
   font-size: 3rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  color: #F0134D;
+  color: #b6ffea;
   /* margin-bottom: 0; */
 }
 
@@ -197,7 +204,7 @@ h3 {
 h4 {
   font-family: "Rubik", sans-serif;
   font-weight: bolder;
-  color: #40bfc1;
+  color: #b6ffea;
   font-size: 1.7rem;
 }
 
@@ -214,7 +221,7 @@ li {
 }
 
 .skills {
-  color: #40bfc1;
+  color: #b6ffea;
   padding-top: 30px;
 }
 
@@ -242,7 +249,7 @@ li {
 }
 
 .gitlink:hover {
-  color: #F0134D;
+  color: #b6ffea;
 }
 
 .projectBtn {
@@ -250,7 +257,7 @@ li {
   background-image: url("./fruitshare.png");
   background-size: cover;
   background-color: transparent;
-  color: #40bfc1;
+  color: #b6ffea;
   cursor: pointer;
   padding: 12% 15%;
   border-radius: 10px;
@@ -285,12 +292,12 @@ li {
 }
 
 .icon:hover {
-  color: #F0134D
+  color: #b6ffea
 }
 
 .upBtn {
   border: 1px solid #fff;
-  background: #F0134D;
+  background: #b6ffea;
   color: #fff;
   cursor: pointer;
   padding: 5px 2px;
@@ -305,7 +312,7 @@ li {
 }
 
 .upBtn:hover {
-  border: 1px solid #F0134D;
+  border: 1px solid #b6ffea;
   background: #fff;
 }
 
@@ -315,7 +322,7 @@ li {
 }
 
 .uparrow:hover {
-  color: #F0134D;
+  color: #b6ffea;
 }
 
 /* Footer */

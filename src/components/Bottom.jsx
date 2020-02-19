@@ -9,7 +9,7 @@ function Bottom() {
     <a href="https://instagram.com/missseagoat">
       <i className="fab fa-instagram fa-3x icon" title="icon link to instagram"></i><br></br><br></br>
     </a>
-    <a href="#about" className="upBtn">
+    <a href="#top" className="upBtn">
       <i className="fas fa-angle-double-up fa-1x uparrow" title="arrow button link to about section"></i>
     </a>
   </div>
