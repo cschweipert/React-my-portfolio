@@ -19,9 +19,13 @@ body > #root > div {
     height: 100%;
     text-align: center;
   }
+
+  .greeting {
+    font-size: 5.5rem;
+  }
   
   h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     color: #fff;

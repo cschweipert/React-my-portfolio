@@ -27,10 +27,10 @@ function Landing() {
   }
 
     return <div id="top" style={customStyle} className="top-container">
-        <h1>{greeting}<br></br></h1>
+        <h1 className="greeting">{greeting}<br></br></h1>
         <h1>I'm <span className="name">Christina</span>.
       A <span className="title">Developer</span>.</h1>
-      <a href="#about" class="meBtn" title="Link button to about section">About me</a>
+      <a href="#about" className="meBtn" title="Link button to about section">About me</a>
     </div>
 }
 
