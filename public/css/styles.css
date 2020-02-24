@@ -13,7 +13,7 @@ body > #root > div {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url("./stony2.png");
+    background-image: url("./columbine.png");
     background-color: #333333;
     background-size: cover;
     height: 100%;
@@ -34,23 +34,23 @@ body > #root > div {
   }
   
   .name {
-    font-family: "Dancing Script", cursive;
+    /* font-family: "Dancing Script", cursive; */
     font-weight: 500;
-    font-size: 5.9rem;
-    color: #b6ffea;
+    font-size: 5.5rem;
+    color: #F0134D;
   }
   
   .title {
-    font-family: "Dancing Script", cursive;
+    /* font-family: "Dancing Script", cursive; */
     font-weight: 500;
-    font-size: 5.9rem;
-    color: #b6ffea;
+    font-size: 5.5rem;
+    color: #40bfc1;
   }
   
   .meBtn {
-    border: 2px solid #fff;
-    background-color: #b6ffea;
-    color: #fff;
+    border: 2px solid #F0134D;
+    background-color: transparent;
+    color: #F0134D;
     cursor: pointer;
     padding: 15px 25px;
     border-radius: 10px;
@@ -66,9 +66,9 @@ body > #root > div {
   }
   
   .meBtn:hover {
-    border: 2px solid #b6ffea;
-    color: #b6ffea;
-    background-color: #fff;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: #F0134D;
     padding: 15px 25px;
   }
 
@@ -90,11 +90,11 @@ body > #root > div {
 }
 
 .topnav a:hover {
-  color: #b6ffea;
+  color: #F0134D;
 }
 
 .topnav .active {
-  color: #b6ffea;
+  color: #F0134D;
 }
 
 .topnav .icon {
@@ -159,7 +159,7 @@ h2 {
   font-size: 3rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  color: #b6ffea;
+  color: #F0134D;
   /* margin-bottom: 0; */
 }
 
@@ -208,7 +208,7 @@ h3 {
 h4 {
   font-family: "Rubik", sans-serif;
   font-weight: bolder;
-  color: #b6ffea;
+  color: #40bfc1;
   font-size: 1.7rem;
 }
 
@@ -225,7 +225,7 @@ li {
 }
 
 .skills {
-  color: #b6ffea;
+  color: #40bfc1;
   padding-top: 30px;
 }
 
@@ -253,7 +253,7 @@ li {
 }
 
 .gitlink:hover {
-  color: #b6ffea;
+  color: #F0134D;
 }
 
 .projectBtn {
@@ -261,7 +261,7 @@ li {
   background-image: url("./fruitshare.png");
   background-size: cover;
   background-color: transparent;
-  color: #b6ffea;
+  color: #40bfc1;
   cursor: pointer;
   padding: 12% 15%;
   border-radius: 10px;
@@ -296,12 +296,12 @@ li {
 }
 
 .icon:hover {
-  color: #b6ffea
+  color: #F0134D
 }
 
 .upBtn {
   border: 1px solid #fff;
-  background: #b6ffea;
+  background: #F0134D;
   color: #fff;
   cursor: pointer;
   padding: 5px 2px;
@@ -316,7 +316,7 @@ li {
 }
 
 .upBtn:hover {
-  border: 1px solid #b6ffea;
+  border: 1px solid #F0134D;
   background: #fff;
 }
 
@@ -326,7 +326,7 @@ li {
 }
 
 .uparrow:hover {
-  color: #b6ffea;
+  color: #F0134D;
 }
 
 /* Footer */

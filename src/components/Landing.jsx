@@ -17,18 +17,15 @@ function Landing() {
   
   if (currentTime < 12) {
     greeting = "Good Morning.";
-    customStyle.backgroundImage = "url(" + "./img/morning.png" + ")";
   } else if (currentTime < 18) {
     greeting = "Good Afternoon.";
-    customStyle.backgroundImage = "url(" + "./img/afternoon.png" + ")";
   } else {
-    greeting = "Good Night.";
-    customStyle.backgroundImage = "url(" + "./img/evening.png" + ")";
+    greeting = "Good Evening.";
   }
 
     return <div id="top" style={customStyle} className="top-container">
         <h1 className="greeting">{greeting}<br></br></h1>
-        <h1>I'm <span className="name">Christina</span>.
+        <h1>I'm <span className="name">Christina Schweipert</span>.<br></br>
       A <span className="title">Developer</span>.</h1>
       <a href="#about" className="meBtn" title="Link button to about section">About me</a>
     </div>
