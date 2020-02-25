@@ -8,8 +8,8 @@ function Projects() {
       bears or humans. The idea of this project is that fruit tree owners can put their trees on a map for others to see so they can get help to pick the fruit.
       Everybear wins. If the user clicks on the points, a popup will inform her about the type of fruit and location.
       <br></br><br></br>This app was built with <i className="fas fa-heart heart"></i> and the help of Node Express, MongoDB, the Esri JavaScript API and EJS Template. It is hosted on MongoDB Atlas and Heroku. My code is public on
-      <a className="gitlink" href="https://github.com/cschweipert/fruitshare">GitHub</a>.</p>
-    <a href="https://quiet-peak-03014.herokuapp.com" className="projectBtn" title="Link button to fruitshare webapp">Check it out <i className="fas fa-angle-double-right sidearrow"></i></a>
+      <a className="gitlink" href="https://github.com/cschweipert/fruitshare"> GitHub</a>.</p>
+    <a href="https://bearsmart.herokuapp.com" className="projectBtn" title="Link button to fruitshare webapp">Check it out <i className="fas fa-angle-double-right sidearrow"></i></a>
   </div>
 }
 
