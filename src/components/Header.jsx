@@ -28,15 +28,6 @@ function Header() {
     </ul>
   </div>
 </nav>
-
-    {/* <nav id="myTopnav" className="navbar .navbar-expand-lg">
-      <a id="aboutlink" href="#about" className="link">About</a>
-      <a id="skillslink" href="#skills" className="link">Skills</a>
-      <a id="projectslink" href="#projects" className="link">Project</a>
-      <a href="resume/resume_template_tech.pdf" className="link">Resume</a>
-      <a href="mailto:c.schweipert@gmail.com" className="link">Get in touch</a>
-      
-    </nav> */}
     </header>
 }
 
