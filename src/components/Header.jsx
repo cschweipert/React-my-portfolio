@@ -20,7 +20,7 @@ function Header() {
         <a id="projectslink" class="nav-link" href="#projects">Project</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#resume/resume_template_tech.pdf">Resume</a>
+        <a class="nav-link" href="./resume/resume_template_tech.pdf">Resume</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="mailto:c.schweipert@gmail.com">Get in touch</a>

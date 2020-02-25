@@ -11,8 +11,7 @@ function Skills() {
           Semantic HTML.<br></br>
           <i className="fas fa-code fa-3x skills"></i>
         </li>
-        <li>Name
-          Accessibility.<br></br>
+        <li>Accessibility.<br></br>
           <i className="fas fa-low-vision fa-3x skills"></i>
           <i className="fas fa-deaf fa-3x skills"></i>
         </li>
@@ -21,10 +20,6 @@ function Skills() {
           <i className="fas fa-mobile-alt fa-2x skills"></i>
           <i className="fas fa-mobile-alt fa-3x skills"></i>
           <i className="fas fa-desktop fa-3x skills"></i>
-        </li>
-        <li>
-          Client side performance.<br></br>
-          <i className="fas fa-sync-alt fa-3x skills"></i>
         </li>
         <li>
           Fast.<br></br>
@@ -40,10 +35,12 @@ function Skills() {
           Design:<br></br>
           <i className="fab fa-html5 fa-3x skills"></i>
           <i className="fab fa-css3-alt fa-3x skills"></i>
+          {/* <i class="fab fa-bootstrap"></i> */}
         </li>
         <li>Function:<br></br>
           <i className="fab fa-js-square fa-3x skills"></i>
           <i className="fab fa-node fa-3x skills"></i>
+          <i class="fab fa-react fa-3x skills"></i>
         </li>
         <li>
           Version Control:<br></br>

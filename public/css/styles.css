@@ -81,6 +81,7 @@ body > #root > div {
 ul {
   list-style-type: none;
   margin-top: 0;
+  padding-left: 0;
 }
 
 li {
@@ -182,7 +183,7 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: #F0134D;
-  /* margin-bottom: 0; */
+  padding: 30px;
 }
 
 .photo {
@@ -190,15 +191,13 @@ h2 {
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 40px;
 }
 
 p {
-  padding: 30px;
+  padding: 50px;
   font-family: "Montserrat", sans-serif;
   line-height: 2;
   margin: 0;
-  padding-top: 0;
 }
 
 /* Skills container */
@@ -219,6 +218,8 @@ h3 {
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 0;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
 
 .grid-container {
@@ -232,11 +233,14 @@ h4 {
   font-weight: bolder;
   color: #40bfc1;
   font-size: 1.7rem;
+  padding-top: 50px;
 }
 
 .skills {
   color: #40bfc1;
   padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .heart {
@@ -256,6 +260,10 @@ h4 {
   text-align: center;
 }
 
+.projectp {
+  padding-top: 0;
+}
+
 .gitlink {
   text-decoration: none;
   font-weight: 600;
@@ -264,6 +272,7 @@ h4 {
 
 .gitlink:hover {
   color: #F0134D;
+  text-decoration: none;
 }
 
 .projectBtn {
@@ -283,8 +292,14 @@ h4 {
   margin-right: auto;
 }
 
+.projectBtn:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
 .sidearrow {
   padding-left: 5px;
+  text-decoration: none;
 }
 
 /* bottom container */
@@ -320,7 +335,8 @@ h4 {
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   display: block;
-  width: 30px;
+  width: 40px;
+  height:60px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -333,6 +349,7 @@ h4 {
 .uparrow {
   color: #fff;
   padding: 10px;
+  padding-top: 15px;
 }
 
 .uparrow:hover {
