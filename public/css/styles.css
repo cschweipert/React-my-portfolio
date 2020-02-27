@@ -186,6 +186,7 @@ li {
   padding-left: 15%;
   padding-right: 15%;
   text-align: center;
+  padding-top: 48px;
 }
 
 h2 {
@@ -221,6 +222,8 @@ p {
   background-size: cover;
   color: #333333;
   text-align: center;
+  padding-top: 48px;
+  padding-bottom: 60px;
 }
 
 h3 {
@@ -268,6 +271,7 @@ h4 {
   padding-right: 15%;
   height: 100%;
   text-align: center;
+  padding-top: 48px;
 }
 
 .projectp {

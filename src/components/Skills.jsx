@@ -32,16 +32,16 @@ function Skills() {
     <h3>My tools:</h3>
     <div className="grid-container">
       <ul>
+        <li>JavaScript:<br></br>
+          <i className="fab fa-js-square fa-3x skills"></i>
+          <i className="fab fa-node fa-3x skills"></i>
+          <i class="fab fa-react fa-3x skills"></i>
+        </li>
         <li>
           Design:<br></br>
           <i className="fab fa-html5 fa-3x skills"></i>
           <i className="fab fa-css3-alt fa-3x skills"></i>
           {/* <i class="fab fa-bootstrap"></i> */}
-        </li>
-        <li>Function:<br></br>
-          <i className="fab fa-js-square fa-3x skills"></i>
-          <i className="fab fa-node fa-3x skills"></i>
-          <i class="fab fa-react fa-3x skills"></i>
         </li>
         <li>
           Version Control:<br></br>
