@@ -1,7 +1,8 @@
 import React from "react";
 
 function Skills() {
-    return <div id="skills" className="skills-container">
+    return <div id="primary">
+    <div id="skills" className="skills-container">
     <h2>Skills.</h2>
 
     <h3>What's important to me?</h3>
@@ -52,6 +53,7 @@ function Skills() {
           <h4>MongoDB</h4>
         </li>
       </ul>
+    </div>
     </div>
     </div>
 }
