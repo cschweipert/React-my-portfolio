@@ -3,8 +3,7 @@ const currentYear = new Date().getFullYear();
 
 function Footer() {
     return <footer>
-    <p>Copyright © Christina Schweipert {currentYear}
-</p></footer>
+    Copyright © Christina Schweipert {currentYear}</footer>
 }
 
 export default Footer;

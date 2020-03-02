@@ -1,11 +1,15 @@
 /* Media Queries: Tablet Landscape */
 @media screen and (max-width: 1060px) {
-  #primary { width:100%; }
+  /* #about {width: 70%; }
+  #skills { width:70%; } */
+  /* #skills { width:100%; } */
 }
 
 /* Media Queries: Tablet Portrait */
 @media screen and (max-width: 768px) {
-  #primary { width:100%; }
+  /* #about {width: 70%; }
+  #skills{ width:70%; } */
+  /* #skills { width:100%; } */
 }
 
 /* make it snug */
@@ -56,9 +60,9 @@ body > #root > div {
   }
   
   .meBtn {
-    border: 2px solid #F0134D;
-    background-color: transparent;
-    color: #F0134D;
+    border: 2px solid #fff;
+    background-color: #F0134D;
+    color: #fff;
     cursor: pointer;
     padding: 15px;
     border-radius: 10px;
@@ -74,9 +78,9 @@ body > #root > div {
   }
   
   .meBtn:hover {
-    border: 2px solid #fff;
-    color: #fff;
-    background-color: #F0134D;
+    border: 2px solid #F0134D;
+    color: #F0134D;
+    background-color: #fff;
     padding: 15px;
     text-decoration: none;
   }
@@ -198,7 +202,8 @@ h2 {
 }
 
 .photo {
-  height: 350px;
+  max-height: 350px;
+  max-width: 50%;
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -216,14 +221,13 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* overflow: scroll; */
   height: 100%;
   background: #EEEEEE;
   background-size: cover;
   color: #333333;
   text-align: center;
-  padding-top: 48px;
-  padding-bottom: 60px;
+  padding-top: 55px;
+  padding-bottom: 70px;
 }
 
 h3 {
@@ -235,7 +239,15 @@ h3 {
   padding-bottom: 30px;
 }
 
+.tools {
+  padding-top: 70px;
+}
+
 .grid-container {
+  /* width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  row-gap: 20px; */
   display: grid;
   grid-auto-rows: max-content;
   justify-content: center;
@@ -256,9 +268,6 @@ h4 {
   padding-right: 10px;
 }
 
-.heart {
-  padding: 2px;
-}
 
 /* project container */
 .project-container {
@@ -289,12 +298,16 @@ h4 {
   text-decoration: none;
 }
 
+.heart {
+  padding: 2px;
+}
+
 .projectBtn {
   border: 1px solid #fff;
   background-image: url("./fruitshare.png");
   background-size: cover;
   background-color: transparent;
-  color: #40bfc1;
+  color: #fff;
   cursor: pointer;
   padding: 12% 15%;
   border-radius: 10px;
@@ -304,11 +317,12 @@ h4 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 40px;
 }
 
 .projectBtn:hover {
   text-decoration: none;
-  color: #fff;
+  color: #40bfc1;
 }
 
 .sidearrow {
@@ -319,8 +333,8 @@ h4 {
 /* bottom container */
 .bottom-container {
   background-image:
-    linear-gradient(45deg, #333333 50%, transparent 0),
-    linear-gradient(-45deg, #333333 50%, transparent 0);
+    linear-gradient(15deg, #333333 50%, transparent 0),
+    linear-gradient(-15deg, #333333 50%, transparent 0);
   background-color: #fff;
   color: #fff;
   text-align: center;
@@ -330,8 +344,10 @@ h4 {
 
 .icon {
   color: #fff;
-  padding: 30px;
-  margin-top: 160px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+  margin-top: 200px;
 }
 
 .icon:hover {
@@ -339,18 +355,16 @@ h4 {
 }
 
 .upBtn {
-  border: 1px solid #fff;
-  background: #F0134D;
+  border: 1px solid #fff; 
+  background-color: #F0134D;
   color: #fff;
   cursor: pointer;
-  padding: 5px 2px;
+  /* padding: 3px 2px; */
   border-radius: 10px;
-  font-size: 18px;
-  font-family: "Montserrat", sans-serif;
   text-decoration: none;
   display: block;
-  width: 40px;
-  height:60px;
+  width: 30px;
+  height:45px;
   margin-left: auto;
   margin-right: auto;
 }
