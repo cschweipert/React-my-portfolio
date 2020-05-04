@@ -86,10 +86,10 @@ body > #root > div {
   }
 
   /* Responsive navbar */
-
 .topnav {
   background-color: #333333;
   padding: 0;
+  z-index: 9999;
 }
 
 ul {
@@ -178,27 +178,145 @@ li {
   top: 0;
 }
 
+/* project container */
+h2 {
+  font-size: 2.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #F0134D;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.row {
+  color: #333333 !important;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 1.75rem;
+}
+
+img {
+  height: 300px;
+  border-radius: 25px;
+}
+
+p {
+  padding: 30px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 2;
+  margin: 0;
+  padding-top: 0;
+}
+
+.container {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.gitlink {
+  text-decoration: none;
+  font-weight: 600;
+  color: #333333;
+}
+
+.gitlink:hover {
+  color: #F0134D;
+}
+
+.card {
+  padding: 16px;
+  text-align: center;
+  background-color: #fff;
+  color: #333333;
+}
+
+.projectBtn {
+  border: 1px solid #333333;
+  background-image: url("./fruitshare.png");
+  background-size: cover;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 12% 15%;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  display: block;
+  height: 300px;
+}
+
+.horizonBtn {
+  border: 1px solid #333333;
+  background-image: url("./horizon.png");
+  background-size: cover;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 12% 15%;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  display: block;
+  height: 300px;
+}
+
+
+/* Skills container */
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  background: #EEEEEE;
+  background-size: cover;
+  color: #333333;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.tools {
+  padding-top: 70px;
+}
+
+.grid-container {
+  display: grid;
+  grid-auto-rows: max-content;
+  justify-content: center;
+}
+
+.h4top {
+  padding-top: 30px;
+}
+
+h4 {
+  font-family: "Rubik", sans-serif;
+  font-weight: bolder;
+  color: #40bfc1;
+  font-size: 1.2rem;
+  padding-top: 10px;
+}
+
+.skills {
+  color: #40bfc1;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 /* about-container */
 .about-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  /* overflow: scroll; */
   color: #333333;
-  /* margin-top: 75px; */
   padding-left: 15%;
   padding-right: 15%;
   text-align: center;
-  padding-top: 48px;
-}
-
-h2 {
-  font-size: 3rem;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  color: #F0134D;
-  padding: 30px;
+  padding-top: 100px;
 }
 
 .photo {
@@ -216,119 +334,6 @@ p {
   margin: 0;
 }
 
-/* Skills container */
-.skills-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
-  background: #EEEEEE;
-  background-size: cover;
-  color: #333333;
-  text-align: center;
-  padding-top: 55px;
-  padding-bottom: 70px;
-}
-
-h3 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 1.75rem;
-  margin-bottom: 0;
-  padding-top: 40px;
-  padding-bottom: 30px;
-}
-
-.tools {
-  padding-top: 70px;
-}
-
-.grid-container {
-  /* width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  row-gap: 20px; */
-  display: grid;
-  grid-auto-rows: max-content;
-  justify-content: center;
-}
-
-h4 {
-  font-family: "Rubik", sans-serif;
-  font-weight: bolder;
-  color: #40bfc1;
-  font-size: 1.7rem;
-  padding-top: 50px;
-}
-
-.skills {
-  color: #40bfc1;
-  padding-top: 30px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-
-/* project container */
-.project-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* overflow: scroll; */
-  color: #333333;
-  padding-left: 15%;
-  padding-right: 15%;
-  height: 100%;
-  text-align: center;
-  padding-top: 48px;
-}
-
-.projectp {
-  padding-top: 0;
-}
-
-.gitlink {
-  text-decoration: none;
-  font-weight: 600;
-  color: #333333;
-}
-
-.gitlink:hover {
-  color: #F0134D;
-  text-decoration: none;
-}
-
-.heart {
-  padding: 2px;
-}
-
-.projectBtn {
-  border: 1px solid #fff;
-  background-image: url("./fruitshare.png");
-  background-size: cover;
-  background-color: transparent;
-  color: #fff;
-  cursor: pointer;
-  padding: 12% 15%;
-  border-radius: 10px;
-  font-size: 18px;
-  font-family: "Montserrat", sans-serif;
-  text-decoration: none;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 40px;
-}
-
-.projectBtn:hover {
-  text-decoration: none;
-  color: #40bfc1;
-}
-
-.sidearrow {
-  padding-left: 5px;
-  text-decoration: none;
-}
 
 /* bottom container */
 .bottom-container {

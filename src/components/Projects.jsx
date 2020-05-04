@@ -1,18 +1,63 @@
 import React from "react";
 
 function Projects() {
-    return <div id="primary">
-    <div id="projects" className="project-container">
-    <h2>Project.</h2>
-    <p className="projectp">This project was inpired by bears. I live in a small mountain town in the foothills of the San Juans in Colorado. We love our bears and want to keep them safe. If we don't have time to pick our fruit, the bears will come to town to pick it
-      for us. That's not safe for
-      bears or humans. The idea of this project is that fruit tree owners can put their trees on a map for others to see so they can get help to pick the fruit.
-      Everybear wins. If the user clicks on the points, a popup will inform her about the type of fruit and location.
-      <br></br><br></br>This app was built with <i className="fas fa-heart heart"></i> and the help of Node Express, MongoDB, the Esri JavaScript API and EJS Template. It is hosted on MongoDB Atlas and Heroku. My code is public on  
-      <a className="gitlink" href="https://github.com/cschweipert/fruitshare"> GitHub</a>.</p>
-    <a href="https://bearsmart.herokuapp.com" className="projectBtn" title="Link button to fruitshare webapp">Check it out <i className="fas fa-angle-double-right sidearrow"></i></a>
+  return <div id="primary">
+    <div id="projects" class="container">
+      <h2>PROJECTS.</h2>
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <div class="listing-heading text-center">
+                <h3>Fruitsharing App <a class="gitlink" href="https://github.com/cschweipert/fruitshare"><i
+                  class="fab fa-github"></i></a></h3>
+              </div>
+              <hr></hr>
+              <div class="row py-2 text-secondary">
+                <div class="col-6">
+                  <i class="fab fa-js-square"></i> JavaScript</div>
+                <div class="col-6">
+                  <i class="fab fa-node"></i> Node/ Express</div>
+              </div>
+              <div class="row py-2 text-secondary">
+                <div class="col-6">
+                  Esri API</div>
+                <div class="col-6">
+                  MongoDB</div>
+              </div>
+            </div>
+            <a href="https://bearsmart.herokuapp.com" class="projectBtn" title="Link to fruitsharing app"></a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <div class="listing-heading text-center">
+                <h3>Real Estate Website <a class="gitlink"
+                  href="https://github.com/cschweipert/django-horizon-property"><i class="fab fa-github"></i></a></h3>
+              </div>
+              <hr></hr>
+              <div class="row py-2 text-secondary">
+                <div class="col-6">
+                  <i class="fab fa-python"></i> Python</div>
+                <div class="col-6">
+                  <i class=""></i> Django</div>
+              </div>
+              <div class="row py-2 text-secondary">
+                <div class="col-6">
+                  MLS Plugin</div>
+                <div class="col-6">
+                  PostgreSQL</div>
+              </div>
+            </div>
+            <a href="http://horizondurango.com/" class="horizonBtn" title="Link button to fruitshare webapp"></a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  </div>
+
 }
 
 export default Projects;
